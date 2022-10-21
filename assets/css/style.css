@@ -11,6 +11,13 @@ body{
     margin: auto;
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+
 li{
     background-color: yellow;
 }
