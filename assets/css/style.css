@@ -7,17 +7,31 @@
 body{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
 }
 
+
+div > h1{
+    text-align: center;
+}
+
+
 ul{
+    width: 80%;
+    margin: auto;
     list-style: none;
     display: flex;
-    
+    flex-wrap: wrap;
+
 }
 
 
 li{
     background-color: yellow;
+    width: 7rem;
+    height: 7rem;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
